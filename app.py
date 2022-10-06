@@ -1,6 +1,6 @@
 """Runs a simple Flask web app to print out a static web page"""
-from flask import Flask, render_template, jsonify
 import gunicorn
+from flask import Flask, render_template, jsonify
 
 APP_NAME = "Python App With Flask, HTML, And REST"
 app = Flask(APP_NAME)
