@@ -4,7 +4,7 @@ from flask import Flask, render_template, jsonify
 
 APP_NAME = "Python App With Flask, HTML, And REST"
 app = Flask(APP_NAME)
-CLIENT = "VMware"
+CLIENT = "VMLive"
 FRAMEWORK = "Python with Pipenv"
 
 messages = [
